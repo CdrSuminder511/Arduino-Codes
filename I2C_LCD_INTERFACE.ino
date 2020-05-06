@@ -7,7 +7,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-int const c_i2c_lcd_address = 0x3F; (Scanned from the i2c scanner code)
+int const c_i2c_lcd_address = 0x3F; //(Scanned from the i2c scanner code)
 
 LiquidCrystal_I2C lcd(c_i2c_lcd_address, 20, 4); // set the LCD address to 0x27 for a 16 chars and 2 line display
 
@@ -19,11 +19,11 @@ void setup()
   lcd.setCursor(3, 0);
   lcd.print("Hello, world!");
   lcd.setCursor(2, 1);
-  lcd.print("Ywrobot Arduino!");
+  lcd.print("test i2c lcd");
   lcd.setCursor(0, 2);
-  lcd.print("Arduino LCM IIC 2004");
+  lcd.print("working good");
   lcd.setCursor(2, 3);
-  lcd.print("Power By Ec-yuan!");
+  lcd.print("ready to begin!!");
 }
 
 
