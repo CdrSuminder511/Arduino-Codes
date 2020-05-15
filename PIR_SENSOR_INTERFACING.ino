@@ -1,3 +1,4 @@
+//This code is interrupt based method
 /******I/O Pins****/
 const uint8_t c_pir_sensor = 2;  //PIR Sensor is attached to pin D2
 const uint8_t c_led_pin = 4;     //Led is connected to Pin D4
